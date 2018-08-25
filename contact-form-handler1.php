@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beautiful form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="bg"></div>
+
+<div class="text-block">
+	<h1>Say Hello!</h1>
+	<h2>You can get in touch with me By simply writing here</h2>
+	<form id="contact-form" method="post" action="contact-form-handler.php">
+		<input type="text" name="username" class="form-control" placeholder="your name" required="">
+		<br>
+		<input type="email" name="useremail" class="form-control" placeholder="your email" required="">
+		<br>
+      <textarea type="text" name="usermessage" class="form-control" placeholder=" Your message" required=""></textarea>
+		
+		<br>
+
+		<button type="submit" value="Insert"> SEND MESSAGE</button>
+	</form>
+
+</div>
+</body>
+</html>
